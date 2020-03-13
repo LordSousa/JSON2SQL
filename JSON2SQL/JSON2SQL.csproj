@@ -13,4 +13,10 @@
     <PackageReference Include="ShellProgressBar" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="cartsExamples.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -13,7 +13,7 @@ namespace JSON2SQL
         public decimal Lenght
         {
             get => _Lenght;
-            set { _Lenght = Math.Round(value / 5) * 5; }
+            set { _Lenght = Math.Ceiling(value / 5) * 5; }
         }
         public JProperty(string propertyName, string datatype, string parentProperty, int lenght)
         {

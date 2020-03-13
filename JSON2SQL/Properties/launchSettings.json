@@ -2,7 +2,7 @@
   "profiles": {
     "JSON2SQL": {
       "commandName": "Project",
-      "commandLineArgs": "-pgsql -select Carts freyr-carts-std-prd-freyr-carts-std-prd \"./cartsExamples.json\" \"output.sql\""
+      "commandLineArgs": "-pgsql -create Carts freyr-carts-std-prd-freyr-carts-std-prd \"./cartsExamples.json\" \"output.sql\""
     }
   }
 }
